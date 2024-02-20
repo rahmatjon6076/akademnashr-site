@@ -1,0 +1,107 @@
+.site-header {
+    background-color: #fff;
+}
+
+.sitenav-link {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+.main-link {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF7500;
+
+}
+
+.hero {
+    background: #252420;
+    color: white;
+}
+
+.orange-line {
+    width: 80px;
+    height: 3px;
+    background-color: #FF7500;
+}
+
+.hero-content {
+    width: 390px;
+}
+
+.hero-heading,
+.sale-content-heading {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+
+}
+
+.hero-text,
+.sale-text {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.hero-img {
+    width: 510px;
+    height: 510px;
+}
+
+.features-heading {
+    font-size: 72px;
+    width: 440px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+
+}
+
+.single-feature {
+    width: 340px;
+    list-style-type: none
+}
+
+.feature-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.single-heading {
+    font-style: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+.features-text {
+    font-style: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.sale {
+    background: #252420;
+}
+
+.sale-content {
+    color: white;
+    width: 440px;
+}
+
+.sale-img {
+    width: 440px;
+    height: 440px;
+}
