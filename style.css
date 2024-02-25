@@ -1,8 +1,14 @@
 .site-header {
     background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 5px solid #FF7500;
+    padding: 16px 0;
 }
 
 .sitenav-link {
+
     font-family: Roboto;
     font-size: 13px;
     font-weight: 500;
@@ -15,7 +21,11 @@
 
 }
 
+
+
+
 .main-link {
+    display: inline-block;
     font-family: Roboto;
     font-size: 13px;
     font-weight: 700;
@@ -24,22 +34,32 @@
     text-decoration: none;
     color: #fff;
     background-color: #FF7500;
+    padding: 12px 24px;
+    border-radius: 4px;
 
 }
 
 .hero {
     background: #252420;
     color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 .orange-line {
     width: 80px;
     height: 3px;
     background-color: #FF7500;
+    border: none;
+    margin: 0;
+    margin-bottom: 40px;
 }
+
 
 .hero-content {
     width: 390px;
+    height: 390px;
+    padding: 80px 0;
 }
 
 .hero-heading,
@@ -60,6 +80,16 @@
 .hero-img {
     width: 510px;
     height: 510px;
+}
+
+.main-features {
+    padding: 210px 0;
+}
+
+.features {
+    display: flex;
+    gap: 40px;
+    padding: 0;
 }
 
 .features-heading {
@@ -94,6 +124,9 @@
 
 .sale {
     background: #252420;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 12px;
 }
 
 .sale-content {
@@ -104,4 +137,35 @@
 .sale-img {
     width: 440px;
     height: 440px;
+}
+
+.socials {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+}
+
+.footer {
+    height: 507px;
+    padding: 56px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.all-links {
+    display: flex;
+    gap: 58px;
+
+}
+
+.all-links ul {
+    width: 224px;
+    padding: 0;
+}
+
+.all-links li a {
+    text-decoration: none;
 }

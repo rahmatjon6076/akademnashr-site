@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akademnashr</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,7 +16,7 @@
             <img src="img/logo_akademnashr.png" alt="Akademnashr logo" width="227" height="60">
         </a>
         <nav>
-            <ul style="list-style-type: none;">
+            <ul style="list-style-type: none; display: flex; gap: 10px; padding:0;">
                 <li> <a class="sitenav-link" href="#">Bosh sahifa</a></li>
                 <li> <a class="sitenav-link" href="#">Kitoblar</a> </li>
                 <li> <a class="sitenav-link" href="#">Aksiyalar</a></li>
@@ -36,13 +37,15 @@
                     video darslar yozilgan bo‘lib, ularga <br> kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
                 <a class="main-link" href="#">buyurtma berish</a>
             </div>
-            <img class="hero-img" src="img/python-book.png" alt="python-book">
+            <div>
+                <img class="hero-img" src="img/python-book.png" alt="python-book">
+            </div>
         </section>
-        <section class="features">
+        <section class="main-features">
             <!-- Features -->
             <hr class="orange-line">
             <h2 class="features-heading">Nega aynan <br> Akademnashr?</h2>
-            <ul>
+            <ul class="features">
                 <li class="single-feature">
                     <img class="feature-icon" src="img/feature-icon_click.png" alt="">
                     <h3 class="single-heading">Oson buyurtma qilish</h3>
@@ -82,16 +85,18 @@
                     so’m) sotib olishingiz mumkin.</p>
                 <a class="main-link" href="#">Buyurtma berish</a>
             </div>
-            <img class="sale-img" src="img/sale-img.png" alt="">
+            <div>
+                <img class="sale-img" src="img/sale-img.png" alt="">
+            </div>
         </section>
     </main>
 
     <!-- Site Footer -->
-    <footer>
-        <div>
+    <footer class="footer">
+        <div style="display: flex; justify-content: space-between;">
             <a href="index.html"> <img src="img/logo_akademnashr.png" alt="Akademnashr logo" width="227" height="60">
             </a>
-            <ul style="list-style-type: none;">
+            <ul class="socials">
                 <li><a href="#" target="_blank"><img src="img/icon-telegram.svg" alt=""></a> </li>
                 <li><a href="#" target="_blank"><img src="img/icon-facebook.svg" alt=""></a> </li>
                 <li><a href="#" target="_blank"><img src="img/icon-instagram.svg" alt=""></a></li>
@@ -99,8 +104,8 @@
         </div>
         <hr>
         <!-- LINKLAR -->
-        <div>
-            <ul style="list-style-type: none;">
+        <div class="all-links">
+            <ul>
                 <li> <a href="#">Bosh sahifa</a></li>
                 <li> <a href="#">Kitoblar</a></li>
                 <li> <a href="#">Aksiyalar</a></li>
